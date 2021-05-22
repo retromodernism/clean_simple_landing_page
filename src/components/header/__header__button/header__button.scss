@@ -1,0 +1,27 @@
+.header__button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  .header__button {
+    width: 113px;
+    height: 43px;
+    border: none;
+    border-radius: 2px;
+    background: #d2e1ff;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #3a79ff;
+
+    transition: 250ms;
+
+    &:hover {
+      cursor: pointer;
+      color: #d2e1ff;
+      background: #3a79ff;
+    }
+  }
+}

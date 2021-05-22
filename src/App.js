@@ -1,8 +1,11 @@
 import './App.scss';
+import Header from './components/header/header';
 
 const App = (props) => {
   return (
-    <div className="test">Hello World</div>
+    <div className="app">
+      <Header />
+    </div>
   );
 };
 

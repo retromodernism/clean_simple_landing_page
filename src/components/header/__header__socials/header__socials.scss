@@ -1,0 +1,24 @@
+.header__socials {
+  display: flex;
+  justify-content: flex-end;
+  .header__socials-link {
+    display: flex;
+    align-items: center;
+    .header__socials-icon  {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .header__socials-link_fb {
+    margin-left: 0px;
+  }
+  .header__socials-link_tg {
+    margin-left: 38px;
+  }
+  .header__socials-link_tw {
+    margin-left: 35px;
+  }
+  .header__socials-link_M {
+    margin-left: 29px;
+  }
+}

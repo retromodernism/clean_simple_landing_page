@@ -1,0 +1,28 @@
+.header__nav {
+  display: flex;
+
+  .header__nav-link {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #697ca6;
+
+    text-shadow: 0px 0px 5px #e6e6e6;
+
+    transition: 250ms;
+
+    &:not(:last-child) {
+      margin-right: 42px;
+    }
+
+    &:hover {
+      color: #5e81fe;
+    }
+  }
+}
