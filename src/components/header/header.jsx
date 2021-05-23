@@ -7,13 +7,15 @@ import logo from "./src/logo.png";
 const Header = (props) => {
   return (
     <header className="header">
-      <picture className="header__logo">
-        <source media="(min-width: 0px)" srcSet={logo} />
-        <img src="#" alt="logo" />
-      </picture>
-      <Header__nav />
-      <Header__socials />
-      <Header__button />
+      <div className="container">
+        <picture className="header__logo">
+          <source media="(min-width: 0px)" srcSet={logo} />
+          <img src="#" alt="logo" />
+        </picture>
+        <Header__nav />
+        <Header__socials />
+        <Header__button />
+      </div>
     </header>
   );
 };
