@@ -5,25 +5,6 @@ import tg_icon from "./src/tg-icon.svg";
 import tw_icon from "./src/twitter-icon.svg";
 import M_icon from "./src/M-icon.png";
 
-const socials = [
-  {
-    icon: fb_icon,
-    href: "#",
-  },
-  {
-    icon: tg_icon,
-    href: "#",
-  },
-  {
-    icon: tw_icon,
-    href: "#",
-  },
-  {
-    icon: M_icon,
-    href: "#",
-  },
-];
-
 const Header__socials = () => {
   return (
     <div className="header__socials">
