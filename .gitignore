@@ -12,7 +12,7 @@
 /build
 
 # environment
-.vscode
+/.vscode
 
 #netlify
 /.netlify
