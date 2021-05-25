@@ -1,0 +1,17 @@
+.customers {
+  .customers__items {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+      fill: #d6dae5;
+      &:hover {
+        fill: #5982e7;
+      }
+      &:not(:last-child) {
+        margin-right: 76px;
+      }
+    }
+  }
+}
