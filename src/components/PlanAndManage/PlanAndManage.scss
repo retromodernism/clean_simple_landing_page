@@ -1,0 +1,100 @@
+.plan_and_manage {
+  width: 1440px;
+  .plan_and_manage-container {
+    display: flex;
+    align-items: center;
+    padding: 210px 270px;
+    background: #F5F8FF;
+    position: relative;
+    .plan_and_manage__info {
+      max-width: 413px;
+
+      .plan_and_manage__info-h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+
+        color: #3D4F9F;
+        margin-bottom: 27px;
+      }
+      .plan_and_manage__info-h1 {
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 45px;
+
+        color: #3D4F9F;
+
+        margin-bottom: 27px;
+      }
+      .plan_and_manage__info-p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 29px;
+        letter-spacing: 0.03em;
+        
+        color: #8D96BD;
+
+        margin-bottom: 47px;
+      }
+      .plan_and_manage__info-buttons {
+        display: flex;
+        .plan_and_manage__info-button {
+          background: unset;
+          border: 1px solid #ADB4D2;
+          
+          font-family: Quicksand;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 13px;
+          line-height: 16px;
+          color: #ADB4D2;
+
+          display: flex;
+          align-items: center;
+
+          padding: 13px 25px;
+
+          cursor: pointer;
+
+          &:first-child {
+            border-radius: 2px 0 0 2px;
+          }
+          &:not(:last-child) {
+            border-right: none;
+          }
+          &:last-child {
+            border-radius: 0 2px 2px 0;
+          }
+          &:hover {
+            background: #4C85FF;
+            color:#FFFFFF;
+          }
+        }
+      }
+    }
+    .plan_and_manage__picture {
+      position: absolute;
+      top: 65%;
+      transform: translate(0, -50%);
+      right: 0;
+
+      .plan_and_manage__picture-img {
+        user-drag: none; 
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+      }
+    }
+  }
+}
