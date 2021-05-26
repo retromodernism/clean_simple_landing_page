@@ -77,6 +77,14 @@
           &:hover {
             background: #4C85FF;
             color:#FFFFFF;
+            .plan_and_manage__info-button-play-icon {
+              fill: #FFFFFF;
+            }
+          }
+          .plan_and_manage__info-button-play-icon {
+            margin-left: 6px;
+            margin-top: 2px;
+            fill: #ADB4D2;
           }
         }
       }

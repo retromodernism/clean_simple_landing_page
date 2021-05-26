@@ -1,6 +1,7 @@
 import "./PlanAndManage.scss";
 import bg from "./src/bg.png";
 import bg_shadow from "./src/bg-shadow.png";
+import { ReactComponent as Play_button } from "./src/video_button_after.svg";
 
 const PlanAndManage = () => {
   return (
@@ -18,7 +19,10 @@ const PlanAndManage = () => {
             oporteat. Eum an expetenda consequat.
           </p>
           <div className="plan_and_manage__info-buttons">
-            <button className="plan_and_manage__info-button">View video</button>
+            <button className="plan_and_manage__info-button">
+              View video
+              <Play_button className="plan_and_manage__info-button-play-icon" />
+            </button>
             <button className="plan_and_manage__info-button">
               See features
             </button>
