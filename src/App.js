@@ -4,6 +4,7 @@ import Features from './components/features/features';
 import Header from './components/header/header';
 import PlanAndManage from './components/PlanAndManage/PlanAndManage';
 import Slider from './components/slider/slider';
+import Stats from './components/stats/stats';
 
 const App = (props) => {
   return (
@@ -14,6 +15,7 @@ const App = (props) => {
         <Customers />
         <PlanAndManage />
         <Features />
+        <Stats />
       </main>
     </div>
   );
