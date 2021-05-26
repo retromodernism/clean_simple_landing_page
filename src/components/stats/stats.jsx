@@ -15,7 +15,7 @@ const Stats = (props) => {
         </div>
         <div className="stats__block stats__block_right">
           <img src={right_icon} alt="" className="stats__block-icon" />
-          <h1 className="stats__block-h1">89%</h1>
+          <h1 className="stats__block-h1">3123</h1>
           <p className="stats__block-p">Users who have used our application</p>
         </div>
       </div>

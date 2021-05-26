@@ -1,4 +1,5 @@
 import './App.scss';
+import Blog from './components/blog/blog';
 import Customers from './components/customers/customers';
 import Features from './components/features/features';
 import Header from './components/header/header';
@@ -16,6 +17,7 @@ const App = (props) => {
         <PlanAndManage />
         <Features />
         <Stats />
+        <Blog />
       </main>
     </div>
   );
