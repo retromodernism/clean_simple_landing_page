@@ -1,7 +1,9 @@
 import './App.scss';
 import Blog from './components/blog/blog';
 import Customers from './components/customers/customers';
+import Faq from './components/faq/faq';
 import Features from './components/features/features';
+import GetStarted from './components/getStarted/getStarted';
 import Header from './components/header/header';
 import PlanAndManage from './components/PlanAndManage/PlanAndManage';
 import Quotes from './components/quotes/quotes';
@@ -20,6 +22,8 @@ const App = (props) => {
         <Stats />
         <Blog />
         <Quotes />
+        <Faq />
+        <GetStarted />
       </main>
     </div>
   );
