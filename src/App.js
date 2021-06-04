@@ -1,16 +1,16 @@
-import './App.scss';
-import Blog from './components/blog/blog';
-import Customers from './components/customers/customers';
-import Faq from './components/faq/faq';
-import Features from './components/features/features';
-import Footer from './components/footer/footer';
-import GetStarted from './components/getStarted/getStarted';
-import Header from './components/header/header';
-import NewsLetter from './components/newsLetter/newsLetter';
-import PlanAndManage from './components/PlanAndManage/PlanAndManage';
-import Quotes from './components/quotes/quotes';
-import Slider from './components/slider/slider';
-import Stats from './components/stats/stats';
+import "./App.scss";
+import Blog from "./components/blog/blog";
+import Customers from "./components/customers/customers";
+import Faq from "./components/faq/faq";
+import Features from "./components/features/features";
+import Footer from "./components/footer/footer";
+import GetStarted from "./components/getStarted/getStarted";
+import Header from "./components/header/header";
+import NewsLetter from "./components/newsLetter/newsLetter";
+import PlanAndManage from "./components/PlanAndManage/PlanAndManage";
+import Quotes from "./components/quotes/quotes";
+import Slider from "./components/slider/slider";
+import Stats from "./components/stats/stats";
 
 const App = (props) => {
   return (
@@ -27,8 +27,8 @@ const App = (props) => {
         <Faq />
         <GetStarted />
         <NewsLetter />
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 };
