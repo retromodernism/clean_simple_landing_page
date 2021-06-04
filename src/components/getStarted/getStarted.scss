@@ -3,7 +3,7 @@
   // background: linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
   background: url(./src/bg.svg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 1440;
   .getStarted__container {
     padding: 90px 0;
     .getStarted__container-content {
@@ -83,7 +83,7 @@
         .getStarted__container-content-button--hover {
           color: #565f82;
           background: #ffffff;
-          border: none;
+          border: 1px solid #ffffff;
         }
       }
     }
